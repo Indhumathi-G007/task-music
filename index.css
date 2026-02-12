@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*Layout break aagama, element size easy-aa control panna use pandrom.*/
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+.player {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.bar {
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.fill {
+  width: 40%;
+  height: 100%;
+  background: #ff4d6d;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;/*Items around equal space*/
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #eee;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff4d6d;
+  color: white;
+}
+
+.play {
+  background: #ff4d6d;
+  color: white;
+}
